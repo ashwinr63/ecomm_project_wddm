@@ -1,6 +1,7 @@
 *, *::before, *::after {
 	box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 html {
 	box-sizing: border-box;
 }
@@ -8,17 +9,15 @@ body {
 	box-sizing: border-box;
 	--global-primary-col: #FBFBF2;    /* main colour */
 	--global-primary-alt: #E5E6E4;    /* variant */
-	--primary-col: #CFD2CD;
-    --primary-alt: #A6A2A2;   /* for text or icons */
+	--primary-col: #cfd2cd9f;
+    --primary-alt: #a6a2a2;   /* for text or icons */
 	--secondary-col: #473d3f;
-	--secondary-alt: #e9cfc0;
+	--secondary-alt: #e9cfc0a1;
 	--secondary-on: #363636;
     --btn-color: #75694e;
 	/* etc, etc... */
     --pad-and-gap: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-family: Titillium, sans-serif;
     border: 0;
     margin: 0;
 	color: var(--secondary-on);
